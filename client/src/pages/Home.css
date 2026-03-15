@@ -1,0 +1,475 @@
+/* Chopper's Hanoi Meal Timetable - Home Page Styles */
+/* Design Philosophy: Warm Playfulness with Medical Precision */
+
+.home-container {
+  min-height: 100vh;
+  background-color: #F5F1E8;
+  padding-bottom: 4rem;
+}
+
+/* ===== HERO SECTION ===== */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  padding: 3rem 1rem;
+  margin-bottom: 3rem;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #8B6F47;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  color: #6B7280;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.what-to-eat-btn {
+  background-color: #E8A5C0;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.875rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(232, 165, 192, 0.3);
+  width: fit-content;
+}
+
+.what-to-eat-btn:hover {
+  background-color: #E08FB5;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(232, 165, 192, 0.4);
+}
+
+.what-to-eat-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(232, 165, 192, 0.3);
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chopper-character {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* ===== TIMETABLE SECTION ===== */
+.timetable-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.timetable-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.timetable-header h2 {
+  font-size: 2rem;
+  color: #8B6F47;
+  margin: 0 0 0.5rem 0;
+}
+
+.timetable-subtitle {
+  font-size: 0.95rem;
+  color: #6B7280;
+  margin: 0;
+}
+
+/* ===== MONTH NAVIGATION ===== */
+.month-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.nav-button {
+  background-color: #FFFFFF;
+  color: #8B6F47;
+  border: 2px solid #E8A5C0;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #F5E8E0;
+  border-color: #8B6F47;
+}
+
+.current-month {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #8B6F47;
+  min-width: 150px;
+  text-align: center;
+}
+
+/* ===== TIMETABLE CONTAINER ===== */
+.timetable-container {
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== DAYS OF WEEK HEADER ===== */
+.days-of-week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.day-header {
+  text-align: center;
+  font-weight: 600;
+  color: #8B6F47;
+  padding: 0.75rem 0;
+  font-size: 0.9rem;
+}
+
+/* ===== CALENDAR GRID ===== */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+}
+
+.calendar-cell {
+  aspect-ratio: 1;
+  background-color: #F9F7F3;
+  border: 2px solid #E5E1D9;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  min-height: 100px;
+}
+
+.calendar-cell.empty {
+  background-color: transparent;
+  border: none;
+  cursor: default;
+}
+
+.calendar-cell:hover:not(.empty) {
+  background-color: #F0E8E0;
+  border-color: #D4C5B9;
+  box-shadow: 0 2px 8px rgba(139, 111, 71, 0.1);
+  transform: translateY(-2px);
+}
+
+.calendar-cell.is-today {
+  border-color: #FF6B6B;
+  background-color: #FFF5F5;
+  box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.1);
+}
+
+.calendar-cell.has-meal {
+  background-color: #F5E8E0;
+  border-color: #E8A5C0;
+}
+
+.cell-date {
+  font-size: 0.75rem;
+  color: #A0A0A0;
+  font-weight: 600;
+  width: 100%;
+  text-align: right;
+  padding: 0.25rem;
+}
+
+.meal-image-wrapper {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.meal-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+/* ===== MEAL MODAL ===== */
+.meal-modal {
+  border-radius: 1rem;
+  border: none;
+}
+
+.meal-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.meal-image-container {
+  width: 100%;
+  aspect-ratio: 1;
+  background: linear-gradient(135deg, #E8A5C0 0%, #FFB3D9 100%);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(232, 165, 192, 0.3);
+}
+
+.modal-meal-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.meal-info {
+  text-align: center;
+}
+
+.meal-name-large {
+  font-size: 1.75rem;
+  color: #8B6F47;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.meal-description {
+  font-size: 1rem;
+  color: #6B7280;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.meal-actions {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.btn-accept {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.875rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-accept:hover {
+  background-color: #45a049;
+  transform: scale(1.02);
+}
+
+.btn-reject {
+  background-color: #FFFFFF;
+  color: #FF6B6B;
+  border: 2px solid #FF6B6B;
+  border-radius: 0.5rem;
+  padding: 0.875rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-reject:hover {
+  background-color: #FFF5F5;
+  transform: scale(1.02);
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .chopper-character {
+    max-height: 250px;
+  }
+
+  .timetable-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .calendar-cell {
+    min-height: 80px;
+  }
+
+  .meal-emoji {
+    font-size: 1rem;
+  }
+
+  .meal-name {
+    font-size: 0.55rem;
+  }
+
+  .meal-name-large {
+    font-size: 1.25rem;
+  }
+
+  .month-navigation {
+    gap: 1rem;
+  }
+
+  .current-month {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 1.5rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .what-to-eat-btn {
+    width: 100%;
+  }
+
+  .chopper-character {
+    max-height: 180px;
+  }
+
+  .timetable-section {
+    padding: 0 0.5rem;
+  }
+
+  .timetable-container {
+    padding: 1rem;
+  }
+
+  .calendar-grid {
+    gap: 0.25rem;
+  }
+
+  .calendar-cell {
+    min-height: 60px;
+    padding: 0.25rem;
+  }
+
+  .cell-date {
+    font-size: 0.65rem;
+  }
+
+  .day-header {
+    font-size: 0.75rem;
+    padding: 0.5rem 0;
+  }
+
+  .meal-modal-content {
+    padding: 1.5rem;
+  }
+
+  .meal-actions {
+    flex-direction: column;
+  }
+
+  .btn-accept,
+  .btn-reject {
+    width: 100%;
+  }
+
+  .month-navigation {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .nav-button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .current-month {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+}
