@@ -16,7 +16,7 @@ export const useMeals = () => {
   useEffect(() => {
     const fetchMeals = async () => {
       try {
-        const response = await fetch('/meals-data.json');
+        const response = await fetch('/meal-page/meals-data.json');
         if (!response.ok) {
           throw new Error('Failed to fetch meals data');
         }
