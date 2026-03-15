@@ -1,0 +1,368 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "name": "Phở Bò",
+      "description": "Beef Noodle Soup",
+      "category": "noodle-soup",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 2,
+      "name": "Phở Gà",
+      "description": "Chicken Noodle Soup",
+      "category": "noodle-soup",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 3,
+      "name": "Bún Chả",
+      "description": "Grilled Pork with Rice Vermicelli",
+      "category": "noodle-dish",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 4,
+      "name": "Bún Thang",
+      "description": "Herbal Chicken Noodle Soup",
+      "category": "noodle-soup",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 5,
+      "name": "Bún Ngân",
+      "description": "Muscovy Duck Noodle Soup",
+      "category": "noodle-soup",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 6,
+      "name": "Bún Riêu",
+      "description": "Crab Noodle Soup",
+      "category": "noodle-soup",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 7,
+      "name": "Bánh Mì",
+      "description": "Vietnamese Baguette Sandwich",
+      "category": "sandwich",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-banh-mi-AMGFse9XxaAUKucDWSRa5a.webp"
+    },
+    {
+      "id": 8,
+      "name": "Bánh Cuốn",
+      "description": "Rice Noodle Rolls",
+      "category": "dumpling",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-spring-roll-QGStjXg53TUaDs7wqU8Crj.webp"
+    },
+    {
+      "id": 9,
+      "name": "Bánh Xèo",
+      "description": "Sizzling Crepes",
+      "category": "pancake",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 10,
+      "name": "Bánh Chưng",
+      "description": "Lunar New Year Sticky Rice Cake",
+      "category": "cake",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-spring-roll-QGStjXg53TUaDs7wqU8Crj.webp"
+    },
+    {
+      "id": 11,
+      "name": "Bánh Cốm",
+      "description": "Young Sticky Rice Cake",
+      "category": "cake",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-spring-roll-QGStjXg53TUaDs7wqU8Crj.webp"
+    },
+    {
+      "id": 12,
+      "name": "Bánh Khọt",
+      "description": "Mini Savory Pancakes",
+      "category": "pancake",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 13,
+      "name": "Bánh Bao",
+      "description": "Steamed Bun",
+      "category": "dumpling",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-spring-roll-QGStjXg53TUaDs7wqU8Crj.webp"
+    },
+    {
+      "id": 14,
+      "name": "Bánh Bèo",
+      "description": "Rice Flour Discs with Dried Shrimp",
+      "category": "dumpling",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-spring-roll-QGStjXg53TUaDs7wqU8Crj.webp"
+    },
+    {
+      "id": 15,
+      "name": "Bánh Tôm",
+      "description": "Shrimp and Yam Fritters",
+      "category": "fried",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-spring-roll-QGStjXg53TUaDs7wqU8Crj.webp"
+    },
+    {
+      "id": 16,
+      "name": "Bánh Giò",
+      "description": "Steamed Triangular Rice Dumplings",
+      "category": "dumpling",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-spring-roll-QGStjXg53TUaDs7wqU8Crj.webp"
+    },
+    {
+      "id": 17,
+      "name": "Cơm Gà Hải Nam",
+      "description": "Hainanese Chicken Rice",
+      "category": "rice-dish",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 18,
+      "name": "Cơm Tấm",
+      "description": "Broken Rice",
+      "category": "rice-dish",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 19,
+      "name": "Cơm Hến",
+      "description": "Clam Rice",
+      "category": "rice-dish",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 20,
+      "name": "Cơm Lam",
+      "description": "Sticky Rice Steamed in Bamboo",
+      "category": "rice-dish",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 21,
+      "name": "Cháo",
+      "description": "Rice Porridge",
+      "category": "soup",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 22,
+      "name": "Chả Cá Thăng Long",
+      "description": "Hanoi-Style Fish with Dill and Turmeric",
+      "category": "grilled",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 23,
+      "name": "Chả Cua Bé",
+      "description": "Crab Spring Rolls",
+      "category": "rolls",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-spring-roll-QGStjXg53TUaDs7wqU8Crj.webp"
+    },
+    {
+      "id": 24,
+      "name": "Chả Giò",
+      "description": "Spring/Egg Rolls",
+      "category": "rolls",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-spring-roll-QGStjXg53TUaDs7wqU8Crj.webp"
+    },
+    {
+      "id": 25,
+      "name": "Chả Lua",
+      "description": "Steamed Pork Loaf",
+      "category": "meat",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-banh-mi-AMGFse9XxaAUKucDWSRa5a.webp"
+    },
+    {
+      "id": 26,
+      "name": "Cua Rang Muối Tiêu",
+      "description": "Salt and Pepper Crab",
+      "category": "seafood",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 27,
+      "name": "Gỏi Cuốn",
+      "description": "Summer/Spring Rolls",
+      "category": "rolls",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-spring-roll-QGStjXg53TUaDs7wqU8Crj.webp"
+    },
+    {
+      "id": 28,
+      "name": "Gỏi Gà",
+      "description": "Chicken Salad",
+      "category": "salad",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 29,
+      "name": "Gỏi Đu Đủ Khô Bò",
+      "description": "Papaya Salad with Beef Jerky",
+      "category": "salad",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 30,
+      "name": "Bò Kho",
+      "description": "Beef Stew",
+      "category": "stew",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 31,
+      "name": "Bò Lúc Lắc",
+      "description": "Shaking Beef",
+      "category": "meat",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 32,
+      "name": "Bò Nướng Lá Lốt",
+      "description": "Grilled Beef with Wild Betel Leaves",
+      "category": "grilled",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 33,
+      "name": "Bò Tái Chanh",
+      "description": "Beef Carpaccio with Lemon",
+      "category": "salad",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 34,
+      "name": "Bò Nè",
+      "description": "Steak and Eggs",
+      "category": "meat",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 35,
+      "name": "Cà Phê Trứng",
+      "description": "Egg Coffee",
+      "category": "beverage",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 36,
+      "name": "Cà Phê Sữa Đá Phin",
+      "description": "Iced Drip Coffee with Milk",
+      "category": "beverage",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 37,
+      "name": "Nước Mía",
+      "description": "Sugarcane Juice",
+      "category": "beverage",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 38,
+      "name": "Sinh Tố Bơ",
+      "description": "Avocado Shake",
+      "category": "beverage",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 39,
+      "name": "Nước Chanh Muối",
+      "description": "Salty Lemonade",
+      "category": "beverage",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 40,
+      "name": "Chè Ba Màu",
+      "description": "Three Color Pudding",
+      "category": "dessert",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 41,
+      "name": "Chè Trôi Nước",
+      "description": "Dough Balls in Ginger Syrup",
+      "category": "dessert",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 42,
+      "name": "Chè Chuối",
+      "description": "Banana Tapioca Pudding",
+      "category": "dessert",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 43,
+      "name": "Chè Bắp",
+      "description": "Corn and Tapioca Pudding",
+      "category": "dessert",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 44,
+      "name": "Kem Tràng Tiền",
+      "description": "Trang Tien Ice Cream",
+      "category": "dessert",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 45,
+      "name": "Kem Flan",
+      "description": "Vietnamese Flan",
+      "category": "dessert",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 46,
+      "name": "Chao Tom",
+      "description": "Grilled Shrimp Paste on Sugarcane",
+      "category": "appetizer",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-spring-roll-QGStjXg53TUaDs7wqU8Crj.webp"
+    },
+    {
+      "id": 47,
+      "name": "Mì Quảng",
+      "description": "Turmeric Noodles with Pork and Shrimp",
+      "category": "noodle-dish",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 48,
+      "name": "Mì Hoành Thành",
+      "description": "Wonton Noodle Soup",
+      "category": "noodle-soup",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 49,
+      "name": "Mì Vịt Tiệm",
+      "description": "Egg Noodles with Duck",
+      "category": "noodle-soup",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 50,
+      "name": "Canh Chua Cá",
+      "description": "Sour Fish Soup",
+      "category": "soup",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-pho-NzkmHAoQbd23TLo4fYhEgu.webp"
+    },
+    {
+      "id": 51,
+      "name": "Rau Muống Xào",
+      "description": "Water Spinach Stir-fried",
+      "category": "vegetable",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    },
+    {
+      "id": 52,
+      "name": "Lẩu",
+      "description": "Hot Pot",
+      "category": "hot-pot",
+      "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663416084659/5pwSdr3Eej9GneknZuX5Hx/meal-bun-cha-5sAYhrx5B2mDnRQDgsyfMX.webp"
+    }
+  ]
+}
